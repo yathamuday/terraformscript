@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "bucklebuck" {
   acl    = "private"
 
   tags = {
-    Name        = "ttf-bucket"
+    Name        = "ttf-bucket-2022222"
     Environment = "Dev"
   }
 }
